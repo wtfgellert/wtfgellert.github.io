@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Presentation file, saved 2/9/2018 3:23:17 PM using CourseLab 171119 -->
+<!-- Presentation file, saved 2/9/2018 4:44:05 PM using CourseLab 171119 -->
 <module>
 <runtime preview_fullscreen="yes" preview_fitwindow="no" fit_small_window="yes" showsplash="yes" seqslides="no" preloadimages="yes" normalize="no"/>
 <groups>
@@ -90,14 +90,14 @@
 </TIMER>
 </RESPONSE>
 </object>
-<object id="IMG_9" x="193" y="200" w="369" h="69" z="106" display="none" begin="0" preload="images/2.png">
+<object id="IMG_9" x="80" y="200" w="590" h="69" z="106" display="none" begin="0" preload="images/2.png">
 <data>
-<![CDATA[<img src="images/2.png" style="width: 369px; height: 69px;border-width: 0px;"/>]]>
+<![CDATA[<img src="images/2.png" style="width: 590px; height: 69px;border-width: 0px;"/>]]>
 </data>
 </object>
-<object id="TXT_3" x="193" y="216" w="365" h="37" z="107" display="none" begin="0">
+<object id="TXT_3" x="86" y="216" w="581" h="37" z="107" display="none" begin="0">
 <data>
-<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Дверь закрыта, найдите ключи</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 581px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Дверь закрыта, найдите ключи</span></font></span></span></p></div>]]>
 </data>
 </object>
 <object id="IMG_10" x="-22" y="91" w="92" h="50" rotation="109" z="108" display="frame" begin="0" preload="images/Ключи.png">
@@ -213,14 +213,14 @@
 </IF>
 </RESPONSE>
 </object>
-<object id="IMG_35" x="193" y="200" w="369" h="69" z="106" display="none" begin="0" preload="images/2.png">
+<object id="IMG_35" x="133" y="200" w="512" h="69" z="106" display="none" begin="0" preload="images/2.png">
 <data>
-<![CDATA[<img src="images/2.png" style="width: 369px; height: 69px;border-width: 0px;"/>]]>
+<![CDATA[<img src="images/2.png" style="width: 512px; height: 69px;border-width: 0px;"/>]]>
 </data>
 </object>
-<object id="TXT_21" x="193" y="216" w="365" h="37" z="107" display="none" begin="0">
+<object id="TXT_21" x="132" y="216" w="511" h="37" z="107" display="none" begin="0">
 <data>
-<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы уже были в этой комнате</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 511px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы уже были в этой комнате</span></font></span></span></p></div>]]>
 </data>
 </object>
 <timeline>
@@ -349,19 +349,19 @@
 <![CDATA[<img src="images/2.png" style="width: 750px; height: 63px;border-width: 0px;"/>]]>
 </data>
 </object>
-<object id="TXT_5" x="476" y="432" w="267" h="37" z="106" display="slide" begin="0">
+<object id="TXT_5" x="423" y="432" w="320" h="37" z="106" display="slide" begin="0">
 <data>
-<![CDATA[<div style="width: 267px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">след кошачьей лапы</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 320px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">след кошачьей лапы</span></font></span></span></p></div>]]>
 </data>
 </object>
-<object id="TXT_6" x="239" y="407" w="315" h="37" z="107" display="slide" begin="0">
+<object id="TXT_6" x="184" y="407" w="410" h="37" z="107" display="slide" begin="0">
 <data>
-<![CDATA[<div style="width: 315px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">фотография Нуменгарда</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 410px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">фотография Нуменгарда</span></font></span></span></p></div>]]>
 </data>
 </object>
-<object id="TXT_7" x="1" y="432" w="315" h="37" z="108" display="slide" begin="0">
+<object id="TXT_7" x="1" y="432" w="394" h="37" z="108" display="slide" begin="0">
 <data>
-<![CDATA[<div style="width: 315px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">палочка Персиваля Грейвза</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 394px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">палочка Персиваля Грейвза</span></font></span></span></p></div>]]>
 </data>
 </object>
 <object id="TXT_8" x="193" y="4" w="365" h="37" z="109" display="frame" begin="0">
@@ -376,7 +376,8 @@
 </object>
 <object id="TXT_9" x="160" y="191" w="430" h="37" z="111" display="none" begin="0">
 <data>
-<![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь в холл</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь</span></font></span></span>
+</p></div>]]>
 </data>
 </object>
 <timeline>
@@ -482,20 +483,20 @@
 <![CDATA[<img src="images/2.png" style="width: 750px; height: 63px;border-width: 0px;"/>]]>
 </data>
 </object>
-<object id="TXT_10" x="461" y="432" w="267" h="37" z="105" display="slide" begin="0">
+<object id="TXT_10" x="386" y="432" w="356" h="37" z="105" display="slide" begin="0">
 <data>
-<![CDATA[<div style="width: 267px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">книга «История магии»</span></font></span></span>
+<![CDATA[<div style="width: 356px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">книга «История магии»</span></font></span></span>
 </p></div>]]>
 </data>
 </object>
-<object id="TXT_11" x="242" y="407" w="214" h="37" z="106" display="slide" begin="0">
+<object id="TXT_11" x="197" y="407" w="305" h="37" z="106" display="slide" begin="0">
 <data>
-<![CDATA[<div style="width: 214px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">шляпа волшебника</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 305px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">шляпа волшебника</span></font></span></span></p></div>]]>
 </data>
 </object>
-<object id="TXT_12" x="19" y="432" w="222" h="37" z="107" display="slide" begin="0">
+<object id="TXT_12" x="9" y="432" w="268" h="37" z="107" display="slide" begin="0">
 <data>
-<![CDATA[<div style="width: 222px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">знак Даров Смерти</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 268px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">знак Даров Смерти</span></font></span></span></p></div>]]>
 </data>
 </object>
 <object id="IMG_28" x="155" y="175" w="441" h="69" z="108" display="none" begin="0" preload="images/2.png">
@@ -505,7 +506,8 @@
 </object>
 <object id="TXT_13" x="160" y="191" w="430" h="37" z="109" display="none" begin="0">
 <data>
-<![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь в холл</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь</span></font></span></span>
+</p></div>]]>
 </data>
 </object>
 <object id="TXT_18" x="193" y="4" w="365" h="37" z="110" display="frame" begin="0">
@@ -650,20 +652,20 @@
 <![CDATA[<img src="images/2.png" style="width: 750px; height: 63px;border-width: 0px;"/>]]>
 </data>
 </object>
-<object id="TXT_14" x="442" y="432" w="286" h="37" z="106" display="slide" begin="0">
+<object id="TXT_14" x="323" y="432" w="418" h="37" z="106" display="slide" begin="0">
 <data>
-<![CDATA[<div style="width: 286px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">статья о Старшей палочке</span></font></span></span>
+<![CDATA[<div style="width: 418px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">статья о Старшей палочке</span></font></span></span>
 </p></div>]]>
 </data>
 </object>
-<object id="TXT_15" x="177" y="407" w="208" h="37" z="107" display="slide" begin="0">
+<object id="TXT_15" x="122" y="407" w="305" h="37" z="107" display="slide" begin="0">
 <data>
-<![CDATA[<div style="width: 208px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">герб Дурмстранга</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 305px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">герб Дурмстранга</span></font></span></span></p></div>]]>
 </data>
 </object>
-<object id="TXT_16" x="19" y="432" w="102" h="37" z="108" display="slide" begin="0">
+<object id="TXT_16" x="19" y="432" w="135" h="37" z="108" display="slide" begin="0">
 <data>
-<![CDATA[<div style="width: 102px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">пончик</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 135px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">пончик</span></font></span></span></p></div>]]>
 </data>
 </object>
 <object id="IMG_32" x="155" y="175" w="441" h="69" z="109" display="none" begin="0" preload="images/2.png">
@@ -673,7 +675,8 @@
 </object>
 <object id="TXT_17" x="160" y="191" w="430" h="37" z="110" display="none" begin="0">
 <data>
-<![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь в холл</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь</span></font></span></span>
+</p></div>]]>
 </data>
 </object>
 <object id="TXT_19" x="193" y="4" w="365" h="37" z="111" display="frame" begin="0">
