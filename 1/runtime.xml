@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Presentation file, saved 2/9/2018 4:53:16 PM using CourseLab 171119 -->
+<!-- Presentation file, saved 2/25/2018 2:53:11 PM using CourseLab 171119 -->
 <module>
 <runtime preview_fullscreen="yes" preview_fitwindow="no" fit_small_window="yes" showsplash="yes" seqslides="no" preloadimages="yes" normalize="no"/>
 <groups>
@@ -230,6 +230,15 @@
 </slide>
 <slide id="SLIDE_5" sid="i" masterid="MASTER1" advance="wait" transition="-1" durout="0" name="Без названия" indent="0">
 <frames>
+<frame id="FRAME_11" dur="0" infinite="0">
+<object id="IMG_48" x="0" y="0" w="750" h="469" z="100" display="frame" begin="0" preload="images/0004_FRAME_11.png">
+<data>
+<![CDATA[<img src="images/0004_FRAME_11.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
+</data>
+</object>
+<timeline>
+</timeline>
+</frame>
 <frame id="FRAME_6" dur="0" infinite="0">
 <object id="IMG_5" x="0" y="0" w="750" h="469" z="100" display="frame" begin="0" preload="images/billiards.jpg">
 <data>
@@ -240,7 +249,12 @@
 </VARIABLE>
 </RESPONSE>
 </object>
-<object id="IMG_14" x="629" y="160" w="102" h="102" rotation="180" z="101" display="none" begin="0" preload="images/left.png">
+<object id="IMG_49" x="0" y="0" w="750" h="469" z="101" display="frame" begin="0" preload="images/0004_FRAME_11.png">
+<data>
+<![CDATA[<img src="images/0004_FRAME_11.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="IMG_14" x="629" y="160" w="102" h="102" rotation="180" z="102" display="none" begin="0" preload="images/left.png">
 <data>
 <![CDATA[<img src="images/left.png" style="width: 102px; height: 102px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_14_1', evt: oEvt });return false;"/>]]>
 </data>
@@ -257,81 +271,194 @@
 </IF>
 </RESPONSE>
 </object>
-<object id="IMG_20" x="272" y="363" w="36" h="36" z="102" display="frame" begin="0" preload="images/paw.png">
+<object id="IMG_20" x="272" y="363" w="36" h="36" z="103" display="frame" begin="0" preload="images/paw.png">
 <data>
 <![CDATA[<img src="images/paw.png" style="width: 36px; height: 36px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_20_1', evt: oEvt });return false;"/>]]>
 </data>
 <RESPONSE name="IMG_20_1" event="onclick" type="link">
 <PAR>
+<DISPLAY pid="IMG_49" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
 <DISPLAY pid="IMG_20" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <DISPLAY pid="TXT_5" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_22" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_23" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_24" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <VARIABLE name="pr" value="#pr+1" global="0">
 </VARIABLE>
 <VARIABLE name="all" value="#all+1" global="1">
 </VARIABLE>
 </PAR>
-<METHOD pid="OBJ_12" method="RefreshText">
-</METHOD>
-<IF type="expression" fs_expression="" if="#pr==3" fs_confirm="" confirm="" fs_drop="" objectid="" fs_objective="" pid="" fs_cs="" cs="c" fs_ss="" ss="p" fs_score="" oid="" condition="lt" score="">
 <PAR>
-<DISPLAY pid="IMG_26" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_42" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="IMG_14" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="OBJ_12" display="inline" transition="0" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="TXT_9" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_41" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_24" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 </PAR>
-</IF>
 </RESPONSE>
 </object>
-<object id="IMG_23" x="189" y="141" w="43" h="52" z="103" display="frame" begin="0" preload="images/Nurmengard.png">
+<object id="IMG_23" x="189" y="141" w="43" h="52" z="104" display="frame" begin="0" preload="images/Nurmengard.png">
 <data>
 <![CDATA[<img src="images/Nurmengard.png" style="width: 43px; height: 52px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_23_1', evt: oEvt });return false;"/>]]>
 </data>
 <RESPONSE name="IMG_23_1" event="onclick" type="link">
 <PAR>
+<DISPLAY pid="IMG_49" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
 <DISPLAY pid="IMG_23" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <DISPLAY pid="TXT_6" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_22" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_23" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_24" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <VARIABLE name="pr" value="#pr+1" global="0">
 </VARIABLE>
 <VARIABLE name="all" value="#all+1" global="1">
 </VARIABLE>
 </PAR>
-<METHOD pid="OBJ_12" method="RefreshText">
-</METHOD>
-<IF type="expression" fs_expression="" if="#pr==3" fs_confirm="" confirm="" fs_drop="" objectid="" fs_objective="" pid="" fs_cs="" cs="c" fs_ss="" ss="p" fs_score="" oid="" condition="lt" score="">
 <PAR>
-<DISPLAY pid="IMG_26" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_42" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="IMG_14" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="OBJ_12" display="inline" transition="0" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="TXT_9" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_41" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_22" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 </PAR>
-</IF>
 </RESPONSE>
 </object>
-<object id="IMG_24" x="610" y="340" w="90" h="31" z="104" display="frame" begin="0" preload="images/wand.png">
+<object id="IMG_24" x="610" y="340" w="90" h="31" z="105" display="frame" begin="0" preload="images/wand.png">
 <data>
 <![CDATA[<img src="images/wand.png" style="width: 90px; height: 31px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_24_1', evt: oEvt });return false;"/>]]>
 </data>
 <RESPONSE name="IMG_24_1" event="onclick" type="link">
 <PAR>
+<DISPLAY pid="IMG_49" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
 <DISPLAY pid="IMG_24" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <DISPLAY pid="TXT_7" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_22" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_23" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_24" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <VARIABLE name="pr" value="#pr+1" global="0">
 </VARIABLE>
 <VARIABLE name="all" value="#all+1" global="1">
 </VARIABLE>
 </PAR>
-<METHOD pid="OBJ_12" method="RefreshText">
-</METHOD>
+<PAR>
+<DISPLAY pid="IMG_42" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="OBJ_12" display="inline" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_41" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_23" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+</PAR>
+</RESPONSE>
+</object>
+<object id="IMG_25" x="-1" y="406" w="750" h="63" z="106" display="frame" begin="0" preload="images/2.png">
+<data>
+<![CDATA[<img src="images/2.png" style="width: 750px; height: 63px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="TXT_5" x="423" y="432" w="320" h="37" z="107" display="slide" begin="0">
+<data>
+<![CDATA[<div style="width: 320px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">след кошачьей лапы</span></font></span></span></p></div>]]>
+</data>
+</object>
+<object id="TXT_6" x="184" y="403" w="410" h="37" z="108" display="slide" begin="0">
+<data>
+<![CDATA[<div style="width: 410px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">фотография Нуменгарда</span></font></span></span></p></div>]]>
+</data>
+</object>
+<object id="TXT_7" x="1" y="432" w="394" h="37" z="109" display="slide" begin="0">
+<data>
+<![CDATA[<div style="width: 394px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">палочка Персиваля Грейвза</span></font></span></span></p></div>]]>
+</data>
+</object>
+<object id="TXT_8" x="193" y="4" w="365" h="37" z="110" display="frame" begin="0">
+<data>
+<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
+</data>
+</object>
+<object id="IMG_26" x="162" y="175" w="431" h="69" z="111" display="none" begin="0" preload="images/2.png">
+<data>
+<![CDATA[<img src="images/2.png" style="width: 431px; height: 69px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="TXT_9" x="160" y="191" w="430" h="37" z="112" display="none" begin="0">
+<data>
+<![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь</span></font></span></span>
+</p></div>]]>
+</data>
+</object>
+<object id="IMG_41" x="-1" y="175" w="751" h="93" z="113" display="none" begin="0" preload="images/2.png">
+<data>
+<![CDATA[<img src="images/2.png" style="width: 751px; height: 93px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="TXT_24" x="13" y="190" w="663" h="66" z="114" display="none" begin="0">
+<data>
+<![CDATA[<div style="width: 663px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Поговаривают, что анимагическая форма<br>Гриндельвальда - кот</span></font></span></span>
+</p></div>]]>
+</data>
+</object>
+<object id="IMG_42" x="683" y="198" w="50" h="49" z="115" display="none" begin="0" preload="images/x.png">
+<data>
+<![CDATA[<img src="images/x.png" style="width: 50px; height: 49px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="TXT_23" x="15" y="190" w="643" h="90" z="116" display="none" begin="0">
+<data>
+<![CDATA[<div style="width: 643px; height: 90px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">В 1926 году Гриндельвальд  обратился главой мракоборического отдела Персивалем Грейвзом</span></font></span></span>
+</p></div>]]>
+</data>
+</object>
+<object id="TXT_22" x="2" y="205" w="681" h="37" z="117" display="none" begin="0">
+<data>
+<![CDATA[<div style="width: 681px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Гриндельвальд построил тюрьму Нурменгард</span></font></span></span>
+</p></div>]]>
+</data>
+</object>
+<object id="OBJ_12" x="678" y="192" w="61" h="59" z="118" display="frame" begin="0" type="101_clickarea_active">
+<data>
+<![CDATA[<div class="cl-wrapper" style="cursor: pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'OBJ_12_1', evt: oEvt });return false;"><div class="style-custom" style="display: none"  ><div class="rule" data-name="#OBJ_12 .cl-container"><span class="rule-static">width: 61px; height: 59px;</span></div><div class="rule" data-name="#OBJ_12 .cl-highlight"><span class="rule-static">width: 55px; height: 53px;border-style: solid; border-width: 3px; border-color: #CC6600; background-color: #FF9900; opacity: 0.5;</span><span class="rule-dynamic" data-type="border-radius" data-value="10px" /></div></div><div class="cl-container unselectable" id="OBJ_12_CONTAINER"  ><div class="cl-highlight" id="OBJ_12_HIGHLIGHT"><svg width="61" height="59"><rect x="0" y="0" style="stroke: transparent; stroke-width: 0; fill: transparent;" width="61" height="59" /></svg></div></div></div>]]>
+</data>
+<RESPONSE name="OBJ_12_1" event="onclick" type="link">
+<PAR>
+<DISPLAY pid="OBJ_12" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_22" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_23" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_42" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_24" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_41" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+</PAR>
 <IF type="expression" fs_expression="" if="#pr==3" fs_confirm="" confirm="" fs_drop="" objectid="" fs_objective="" pid="" fs_cs="" cs="c" fs_ss="" ss="p" fs_score="" oid="" condition="lt" score="">
 <PAR>
 <DISPLAY pid="IMG_26" display="inline" transition="13" fs_dur="" dur="1000">
@@ -343,42 +470,6 @@
 </PAR>
 </IF>
 </RESPONSE>
-</object>
-<object id="IMG_25" x="-1" y="406" w="750" h="63" z="105" display="frame" begin="0" preload="images/2.png">
-<data>
-<![CDATA[<img src="images/2.png" style="width: 750px; height: 63px;border-width: 0px;"/>]]>
-</data>
-</object>
-<object id="TXT_5" x="423" y="432" w="320" h="37" z="106" display="slide" begin="0">
-<data>
-<![CDATA[<div style="width: 320px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">след кошачьей лапы</span></font></span></span></p></div>]]>
-</data>
-</object>
-<object id="TXT_6" x="184" y="407" w="410" h="37" z="107" display="slide" begin="0">
-<data>
-<![CDATA[<div style="width: 410px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">фотография Нуменгарда</span></font></span></span></p></div>]]>
-</data>
-</object>
-<object id="TXT_7" x="1" y="432" w="394" h="37" z="108" display="slide" begin="0">
-<data>
-<![CDATA[<div style="width: 394px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">палочка Персиваля Грейвза</span></font></span></span></p></div>]]>
-</data>
-</object>
-<object id="TXT_8" x="193" y="4" w="365" h="37" z="109" display="frame" begin="0">
-<data>
-<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
-</data>
-</object>
-<object id="IMG_26" x="155" y="175" w="441" h="69" z="110" display="none" begin="0" preload="images/2.png">
-<data>
-<![CDATA[<img src="images/2.png" style="width: 441px; height: 69px;border-width: 0px;"/>]]>
-</data>
-</object>
-<object id="TXT_9" x="160" y="191" w="430" h="37" z="111" display="none" begin="0">
-<data>
-<![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь</span></font></span></span>
-</p></div>]]>
-</data>
 </object>
 <timeline>
 </timeline>
@@ -387,6 +478,15 @@
 </slide>
 <slide id="SLIDE_6" sid="j" masterid="MASTER1" advance="wait" transition="-1" durout="0" name="Без названия" indent="0">
 <frames>
+<frame id="FRAME_12" dur="0" infinite="0">
+<object id="IMG_39" x="0" y="0" w="750" h="469" z="100" display="frame" begin="0" preload="images/0006_FRAME_12.png">
+<data>
+<![CDATA[<img src="images/0006_FRAME_12.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
+</data>
+</object>
+<timeline>
+</timeline>
+</frame>
 <frame id="FRAME_7" dur="0" infinite="1">
 <object id="IMG_6" x="0" y="0" w="750" h="469" z="100" display="frame" begin="0" preload="images/2.jpg">
 <data>
@@ -397,125 +497,154 @@
 </VARIABLE>
 </RESPONSE>
 </object>
-<object id="IMG_18" x="111" y="315" w="90" h="72" z="101" display="frame" begin="0" preload="images/hat.png">
+<object id="IMG_40" x="0" y="0" w="750" h="469" z="101" display="frame" begin="0" preload="images/0006_FRAME_12.png">
+<data>
+<![CDATA[<img src="images/0006_FRAME_12.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="IMG_18" x="111" y="315" w="90" h="72" z="102" display="frame" begin="0" preload="images/hat.png">
 <data>
 <![CDATA[<img src="images/hat.png" style="width: 90px; height: 72px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_18_1', evt: oEvt });return false;"/>]]>
 </data>
 <RESPONSE name="IMG_18_1" event="onclick" type="link">
 <PAR>
+<DISPLAY pid="IMG_40" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
 <DISPLAY pid="IMG_18" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <DISPLAY pid="TXT_11" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_27" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_26" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_25" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <VARIABLE name="pr1" value="#pr1+1" global="0">
 </VARIABLE>
 <VARIABLE name="all" value="#all+1" global="1">
 </VARIABLE>
 </PAR>
-<IF type="expression" fs_expression="" if="#pr1==3" fs_confirm="" confirm="" fs_drop="" objectid="" fs_objective="" pid="" fs_cs="" cs="c" fs_ss="" ss="p" fs_score="" oid="" condition="lt" score="">
 <PAR>
-<DISPLAY pid="IMG_28" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_43" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="IMG_13" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="OBJ_13" display="inline" transition="0" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="TXT_13" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_44" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_26" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 </PAR>
-</IF>
 </RESPONSE>
 </object>
-<object id="IMG_21" x="485" y="172" w="48" h="42" z="102" display="frame" begin="0" preload="images/Дары_Смерти.png">
+<object id="IMG_21" x="485" y="172" w="48" h="42" z="103" display="frame" begin="0" preload="images/Дары_Смерти.png">
 <data>
 <![CDATA[<img src="images/Дары_Смерти.png" style="width: 48px; height: 42px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_21_1', evt: oEvt });return false;"/>]]>
 </data>
 <RESPONSE name="IMG_21_1" event="onclick" type="link">
 <PAR>
+<DISPLAY pid="IMG_40" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
 <DISPLAY pid="IMG_21" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <DISPLAY pid="TXT_12" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_27" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_26" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_25" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <VARIABLE name="pr1" value="#pr1+1" global="0">
 </VARIABLE>
 <VARIABLE name="all" value="#all+1" global="1">
 </VARIABLE>
 </PAR>
-<IF type="expression" fs_expression="" if="#pr1==3" fs_confirm="" confirm="" fs_drop="" objectid="" fs_objective="" pid="" fs_cs="" cs="c" fs_ss="" ss="p" fs_score="" oid="" condition="lt" score="">
 <PAR>
-<DISPLAY pid="IMG_28" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_43" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="IMG_13" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="OBJ_13" display="inline" transition="0" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="TXT_13" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_44" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_27" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 </PAR>
-</IF>
 </RESPONSE>
 </object>
-<object id="IMG_22" x="20" y="326" w="61" h="49" z="103" display="frame" begin="0" preload="images/2601755.png">
+<object id="IMG_22" x="20" y="326" w="61" h="49" z="104" display="frame" begin="0" preload="images/2601755.png">
 <data>
 <![CDATA[<img src="images/2601755.png" style="width: 61px; height: 49px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_22_1', evt: oEvt });return false;"/>]]>
 </data>
 <RESPONSE name="IMG_22_1" event="onclick" type="link">
 <PAR>
+<DISPLAY pid="IMG_40" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
 <DISPLAY pid="IMG_22" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <DISPLAY pid="TXT_10" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_27" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_26" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_25" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <VARIABLE name="pr1" value="#pr1+1" global="0">
 </VARIABLE>
 <VARIABLE name="all" value="#all+1" global="1">
 </VARIABLE>
 </PAR>
-<IF type="expression" fs_expression="" if="#pr1==3" fs_confirm="" confirm="" fs_drop="" objectid="" fs_objective="" pid="" fs_cs="" cs="c" fs_ss="" ss="p" fs_score="" oid="" condition="lt" score="">
 <PAR>
-<DISPLAY pid="IMG_28" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_43" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="IMG_13" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="OBJ_13" display="inline" transition="0" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="TXT_13" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_44" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_25" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 </PAR>
-</IF>
 </RESPONSE>
 </object>
-<object id="IMG_27" x="-1" y="406" w="750" h="63" z="104" display="frame" begin="0" preload="images/2.png">
+<object id="IMG_27" x="-1" y="406" w="750" h="63" z="105" display="frame" begin="0" preload="images/2.png">
 <data>
 <![CDATA[<img src="images/2.png" style="width: 750px; height: 63px;border-width: 0px;"/>]]>
 </data>
 </object>
-<object id="TXT_10" x="386" y="432" w="356" h="37" z="105" display="slide" begin="0">
+<object id="TXT_10" x="386" y="432" w="356" h="37" z="106" display="slide" begin="0">
 <data>
 <![CDATA[<div style="width: 356px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">книга «История магии»</span></font></span></span>
 </p></div>]]>
 </data>
 </object>
-<object id="TXT_11" x="197" y="407" w="305" h="37" z="106" display="slide" begin="0">
+<object id="TXT_11" x="197" y="401" w="305" h="37" z="107" display="slide" begin="0">
 <data>
 <![CDATA[<div style="width: 305px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">шляпа волшебника</span></font></span></span></p></div>]]>
 </data>
 </object>
-<object id="TXT_12" x="9" y="432" w="268" h="37" z="107" display="slide" begin="0">
+<object id="TXT_12" x="9" y="432" w="268" h="37" z="108" display="slide" begin="0">
 <data>
 <![CDATA[<div style="width: 268px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">знак Даров Смерти</span></font></span></span></p></div>]]>
 </data>
 </object>
-<object id="IMG_28" x="155" y="175" w="441" h="69" z="108" display="none" begin="0" preload="images/2.png">
+<object id="IMG_28" x="155" y="175" w="441" h="69" z="109" display="none" begin="0" preload="images/2.png">
 <data>
 <![CDATA[<img src="images/2.png" style="width: 441px; height: 69px;border-width: 0px;"/>]]>
 </data>
 </object>
-<object id="TXT_13" x="160" y="191" w="430" h="37" z="109" display="none" begin="0">
+<object id="TXT_13" x="160" y="191" w="430" h="37" z="110" display="none" begin="0">
 <data>
 <![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь</span></font></span></span>
 </p></div>]]>
 </data>
 </object>
-<object id="TXT_18" x="193" y="4" w="365" h="37" z="110" display="frame" begin="0">
+<object id="TXT_18" x="193" y="4" w="365" h="37" z="111" display="frame" begin="0">
 <data>
 <![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
 </data>
 </object>
-<object id="IMG_13" x="-6" y="-18" w="102" h="102" z="111" display="none" begin="0" preload="images/left.png">
+<object id="IMG_13" x="-6" y="-18" w="102" h="102" z="112" display="none" begin="0" preload="images/left.png">
 <data>
 <![CDATA[<img src="images/left.png" style="width: 102px; height: 102px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_13_1', evt: oEvt });return false;"/>]]>
 </data>
@@ -532,6 +661,65 @@
 </IF>
 </RESPONSE>
 </object>
+<object id="IMG_44" x="-1" y="175" w="751" h="93" z="113" display="none" begin="0" preload="images/2.png">
+<data>
+<![CDATA[<img src="images/2.png" style="width: 751px; height: 93px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="TXT_25" x="12" y="190" w="655" h="66" z="114" display="none" begin="0">
+<data>
+<![CDATA[<div style="width: 655px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Двоюродная бабушка Гриндельвальда - Батильда Бэгшот, автор «Истории магии»</span></font></span></span>
+</p></div>]]>
+</data>
+</object>
+<object id="TXT_26" x="12" y="190" w="655" h="66" z="115" display="none" begin="0">
+<data>
+<![CDATA[<div style="width: 655px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Похоже, у Альбуса Дамблдора и Геллерта Гриндельвальда не только по юности что-то было</span></font></span></span>
+</p></div>]]>
+</data>
+</object>
+<object id="TXT_27" x="12" y="205" w="655" h="66" z="116" display="none" begin="0">
+<data>
+<![CDATA[<div style="width: 655px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Гриндельвальд одержим идеей собрать все Дары Смерти</span></font></span></span>
+</p></div>]]>
+</data>
+</object>
+<object id="IMG_43" x="683" y="198" w="50" h="49" z="117" display="none" begin="0" preload="images/x.png">
+<data>
+<![CDATA[<img src="images/x.png" style="width: 50px; height: 49px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="OBJ_13" x="678" y="192" w="61" h="59" z="118" display="frame" begin="0" type="101_clickarea_active">
+<data>
+<![CDATA[<div class="cl-wrapper" style="cursor: pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'OBJ_13_1', evt: oEvt });return false;"><div class="style-custom" style="display: none"  ><div class="rule" data-name="#OBJ_13 .cl-container"><span class="rule-static">width: 61px; height: 59px;</span></div><div class="rule" data-name="#OBJ_13 .cl-highlight"><span class="rule-static">width: 55px; height: 53px;border-style: solid; border-width: 3px; border-color: #CC6600; background-color: #FF9900; opacity: 0.5;</span><span class="rule-dynamic" data-type="border-radius" data-value="10px" /></div></div><div class="cl-container unselectable" id="OBJ_13_CONTAINER"  ><div class="cl-highlight" id="OBJ_13_HIGHLIGHT"><svg width="61" height="59"><rect x="0" y="0" style="stroke: transparent; stroke-width: 0; fill: transparent;" width="61" height="59" /></svg></div></div></div>]]>
+</data>
+<RESPONSE name="OBJ_13_1" event="onclick" type="link">
+<PAR>
+<DISPLAY pid="OBJ_13" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_27" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_26" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_43" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_25" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_44" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+</PAR>
+<IF type="expression" fs_expression="" if="#pr1==3" fs_confirm="" confirm="" fs_drop="" objectid="" fs_objective="" pid="" fs_cs="" cs="c" fs_ss="" ss="p" fs_score="" oid="" condition="lt" score="">
+<PAR>
+<DISPLAY pid="IMG_28" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_13" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_13" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+</PAR>
+</IF>
+</RESPONSE>
+</object>
 <timeline>
 </timeline>
 </frame>
@@ -539,6 +727,15 @@
 </slide>
 <slide id="SLIDE_7" sid="k" masterid="MASTER1" advance="wait" transition="-1" durout="0" name="Без названия" indent="0">
 <frames>
+<frame id="FRAME_13" dur="0" infinite="0">
+<object id="IMG_37" x="0" y="0" w="750" h="469" z="100" display="frame" begin="0" preload="images/0008_FRAME_13.png">
+<data>
+<![CDATA[<img src="images/0008_FRAME_13.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
+</data>
+</object>
+<timeline>
+</timeline>
+</frame>
 <frame id="FRAME_8" dur="0" infinite="0">
 <object id="IMG_7" x="0" y="0" w="750" h="469" z="100" display="frame" begin="0" preload="images/sovremennyj-fasad-gostinoj-v-goticheskom-stile.jpg">
 <data>
@@ -549,7 +746,12 @@
 </VARIABLE>
 </RESPONSE>
 </object>
-<object id="IMG_15" x="605" y="197" w="102" h="102" rotation="90" z="101" display="none" begin="0" preload="images/left.png">
+<object id="IMG_38" x="0" y="0" w="750" h="469" z="101" display="frame" begin="0" preload="images/0008_FRAME_13.png">
+<data>
+<![CDATA[<img src="images/0008_FRAME_13.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="IMG_15" x="605" y="197" w="102" h="102" rotation="90" z="102" display="none" begin="0" preload="images/left.png">
 <data>
 <![CDATA[<img src="images/left.png" style="width: 102px; height: 102px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_15_1', evt: oEvt });return false;"/>]]>
 </data>
@@ -566,74 +768,182 @@
 </IF>
 </RESPONSE>
 </object>
-<object id="IMG_19" x="110" y="283" w="61" h="44" rotation="358" z="102" display="frame" begin="0" preload="images/146626787912030267.png">
+<object id="IMG_19" x="110" y="283" w="61" h="44" rotation="358" z="103" display="frame" begin="0" preload="images/146626787912030267.png">
 <data>
 <![CDATA[<img src="images/146626787912030267.png" style="width: 61px; height: 44px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_19_1', evt: oEvt });return false;"/>]]>
 </data>
 <RESPONSE name="IMG_19_1" event="onclick" type="link">
 <PAR>
+<DISPLAY pid="IMG_38" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
 <DISPLAY pid="IMG_19" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <DISPLAY pid="TXT_16" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_28" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_29" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_30" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <VARIABLE name="pr2" value="#pr2+1" global="0">
 </VARIABLE>
 <VARIABLE name="all" value="#all+1" global="1">
 </VARIABLE>
 </PAR>
-<IF type="expression" fs_expression="" if="#pr2==3" fs_confirm="" confirm="" fs_drop="" objectid="" fs_objective="" pid="" fs_cs="" cs="c" fs_ss="" ss="p" fs_score="" oid="" condition="lt" score="">
 <PAR>
-<DISPLAY pid="TXT_17" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_46" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="IMG_15" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="OBJ_14" display="inline" transition="0" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="IMG_32" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_47" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_29" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 </PAR>
-</IF>
 </RESPONSE>
 </object>
-<object id="IMG_29" x="517" y="306" w="67" h="19" z="103" display="frame" begin="0" preload="images/37.png">
+<object id="IMG_29" x="517" y="306" w="67" h="19" z="104" display="frame" begin="0" preload="images/37.png">
 <data>
 <![CDATA[<img src="images/37.png" style="width: 67px; height: 19px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_29_1', evt: oEvt });return false;"/>]]>
 </data>
 <RESPONSE name="IMG_29_1" event="onclick" type="link">
 <PAR>
+<DISPLAY pid="IMG_38" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
 <DISPLAY pid="IMG_29" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <DISPLAY pid="TXT_14" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_28" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_29" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_30" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <VARIABLE name="pr2" value="#pr2+1" global="0">
 </VARIABLE>
 <VARIABLE name="all" value="#all+1" global="1">
 </VARIABLE>
 </PAR>
-<IF type="expression" fs_expression="" if="#pr2==3" fs_confirm="" confirm="" fs_drop="" objectid="" fs_objective="" pid="" fs_cs="" cs="c" fs_ss="" ss="p" fs_score="" oid="" condition="lt" score="">
 <PAR>
-<DISPLAY pid="TXT_17" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_46" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="IMG_15" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="OBJ_14" display="inline" transition="0" fs_dur="" dur="1000">
 </DISPLAY>
-<DISPLAY pid="IMG_32" display="inline" transition="13" fs_dur="" dur="1000">
+<DISPLAY pid="IMG_47" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_30" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 </PAR>
-</IF>
 </RESPONSE>
 </object>
-<object id="IMG_30" x="339" y="91" w="87" h="99" z="104" display="frame" begin="0" preload="images/DurmstrangCrest.png">
+<object id="IMG_30" x="339" y="91" w="87" h="99" z="105" display="frame" begin="0" preload="images/DurmstrangCrest.png">
 <data>
 <![CDATA[<img src="images/DurmstrangCrest.png" style="width: 87px; height: 99px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_30_1', evt: oEvt });return false;"/>]]>
 </data>
 <RESPONSE name="IMG_30_1" event="onclick" type="link">
 <PAR>
+<DISPLAY pid="IMG_38" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
 <DISPLAY pid="IMG_30" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <DISPLAY pid="TXT_15" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_28" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_29" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_30" display="none" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <VARIABLE name="pr2" value="#pr2+1" global="0">
 </VARIABLE>
 <VARIABLE name="all" value="#all+1" global="1">
 </VARIABLE>
+</PAR>
+<PAR>
+<DISPLAY pid="IMG_46" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="OBJ_14" display="inline" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_47" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_28" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+</PAR>
+</RESPONSE>
+</object>
+<object id="IMG_31" x="-1" y="406" w="750" h="63" z="106" display="frame" begin="0" preload="images/2.png">
+<data>
+<![CDATA[<img src="images/2.png" style="width: 750px; height: 63px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="TXT_14" x="323" y="432" w="418" h="37" z="107" display="slide" begin="0">
+<data>
+<![CDATA[<div style="width: 418px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">статья о Старшей палочке</span></font></span></span>
+</p></div>]]>
+</data>
+</object>
+<object id="TXT_15" x="122" y="402" w="305" h="37" z="108" display="slide" begin="0">
+<data>
+<![CDATA[<div style="width: 305px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">герб Дурмстранга</span></font></span></span></p></div>]]>
+</data>
+</object>
+<object id="TXT_16" x="19" y="432" w="135" h="37" z="109" display="slide" begin="0">
+<data>
+<![CDATA[<div style="width: 135px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">пончик</span></font></span></span></p></div>]]>
+</data>
+</object>
+<object id="IMG_32" x="155" y="175" w="441" h="69" z="110" display="none" begin="0" preload="images/2.png">
+<data>
+<![CDATA[<img src="images/2.png" style="width: 441px; height: 69px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="TXT_17" x="160" y="191" w="430" h="37" z="111" display="none" begin="0">
+<data>
+<![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь</span></font></span></span>
+</p></div>]]>
+</data>
+</object>
+<object id="TXT_19" x="193" y="4" w="365" h="37" z="112" display="frame" begin="0">
+<data>
+<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
+</data>
+</object>
+<object id="IMG_46" x="-1" y="175" w="751" h="93" z="113" display="none" begin="0" preload="images/2.png">
+<data>
+<![CDATA[<img src="images/2.png" style="width: 751px; height: 93px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="TXT_28" x="12" y="190" w="655" h="66" z="114" display="none" begin="0">
+<data>
+<![CDATA[<div style="width: 655px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Гриндельвальд учился в Дурмстранге, но в 16 лет его оттуда отчислили</span></font></span></span>
+</p></div>]]>
+</data>
+</object>
+<object id="IMG_47" x="683" y="198" w="50" h="49" z="115" display="none" begin="0" preload="images/x.png">
+<data>
+<![CDATA[<img src="images/x.png" style="width: 50px; height: 49px;border-width: 0px;"/>]]>
+</data>
+</object>
+<object id="OBJ_14" x="678" y="192" w="61" h="59" z="116" display="frame" begin="0" type="101_clickarea_active">
+<data>
+<![CDATA[<div class="cl-wrapper" style="cursor: pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'OBJ_14_1', evt: oEvt });return false;"><div class="style-custom" style="display: none"  ><div class="rule" data-name="#OBJ_14 .cl-container"><span class="rule-static">width: 61px; height: 59px;</span></div><div class="rule" data-name="#OBJ_14 .cl-highlight"><span class="rule-static">width: 55px; height: 53px;border-style: solid; border-width: 3px; border-color: #CC6600; background-color: #FF9900; opacity: 0.5;</span><span class="rule-dynamic" data-type="border-radius" data-value="10px" /></div></div><div class="cl-container unselectable" id="OBJ_14_CONTAINER"  ><div class="cl-highlight" id="OBJ_14_HIGHLIGHT"><svg width="61" height="59"><rect x="0" y="0" style="stroke: transparent; stroke-width: 0; fill: transparent;" width="61" height="59" /></svg></div></div></div>]]>
+</data>
+<RESPONSE name="OBJ_14_1" event="onclick" type="link">
+<PAR>
+<DISPLAY pid="OBJ_14" display="none" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_28" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_29" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_47" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_30" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_46" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
 </PAR>
 <IF type="expression" fs_expression="" if="#pr2==3" fs_confirm="" confirm="" fs_drop="" objectid="" fs_objective="" pid="" fs_cs="" cs="c" fs_ss="" ss="p" fs_score="" oid="" condition="lt" score="">
 <PAR>
@@ -647,41 +957,16 @@
 </IF>
 </RESPONSE>
 </object>
-<object id="IMG_31" x="-1" y="406" w="750" h="63" z="105" display="frame" begin="0" preload="images/2.png">
+<object id="TXT_29" x="12" y="190" w="655" h="66" z="117" display="none" begin="0">
 <data>
-<![CDATA[<img src="images/2.png" style="width: 750px; height: 63px;border-width: 0px;"/>]]>
-</data>
-</object>
-<object id="TXT_14" x="323" y="432" w="418" h="37" z="106" display="slide" begin="0">
-<data>
-<![CDATA[<div style="width: 418px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">статья о Старшей палочке</span></font></span></span>
+<![CDATA[<div style="width: 655px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Похоже, даже темные маги не могут устоять перед выпечкой Якоба Ковальски</span></font></span></span>
 </p></div>]]>
 </data>
 </object>
-<object id="TXT_15" x="122" y="407" w="305" h="37" z="107" display="slide" begin="0">
+<object id="TXT_30" x="12" y="190" w="655" h="66" z="118" display="none" begin="0">
 <data>
-<![CDATA[<div style="width: 305px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">герб Дурмстранга</span></font></span></span></p></div>]]>
-</data>
-</object>
-<object id="TXT_16" x="19" y="432" w="135" h="37" z="108" display="slide" begin="0">
-<data>
-<![CDATA[<div style="width: 135px; height: 37px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">пончик</span></font></span></span></p></div>]]>
-</data>
-</object>
-<object id="IMG_32" x="155" y="175" w="441" h="69" z="109" display="none" begin="0" preload="images/2.png">
-<data>
-<![CDATA[<img src="images/2.png" style="width: 441px; height: 69px;border-width: 0px;"/>]]>
-</data>
-</object>
-<object id="TXT_17" x="160" y="191" w="430" h="37" z="110" display="none" begin="0">
-<data>
-<![CDATA[<div style="width: 430px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Вы все нашли, возвращайтесь</span></font></span></span>
+<![CDATA[<div style="width: 655px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Старшую палочку Геллерт Гриндевальд выкрал у Грегоровича</span></font></span></span>
 </p></div>]]>
-</data>
-</object>
-<object id="TXT_19" x="193" y="4" w="365" h="37" z="111" display="frame" begin="0">
-<data>
-<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
 </data>
 </object>
 <timeline>
@@ -1712,6 +1997,87 @@
 <preview>no</preview>
 </param>
 <param objectid="OBJ_11">
+<hidden.label>Активная зона</hidden.label>
+<activation>method</activation>
+<cursor>pointer</cursor>
+<control_type>object</control_type>
+<fs_object></fs_object>
+<object_to_control></object_to_control>
+<fs_position></fs_position>
+<pX>5</pX>
+<pY>40</pY>
+<pW>500</pW>
+<pH>500</pH>
+<attempts>3</attempts>
+<attempts_actions>no</attempts_actions>
+<lastattempt>list_select_next</lastattempt>
+<timer_incorrect_switch>yes</timer_incorrect_switch>
+<timer_incorrect>3000</timer_incorrect>
+<correct_display></correct_display>
+<correct_hide>no</correct_hide>
+<bg_color>#FF9900</bg_color>
+<border_color>#CC6600</border_color>
+<borderstyle>solid</borderstyle>
+<borderwidth>3</borderwidth>
+<radius>10</radius>
+<opacity>50</opacity>
+<preview>no</preview>
+</param>
+<param objectid="OBJ_12">
+<hidden.label>Активная зона</hidden.label>
+<activation>method</activation>
+<cursor>pointer</cursor>
+<control_type>object</control_type>
+<fs_object></fs_object>
+<object_to_control></object_to_control>
+<fs_position></fs_position>
+<pX>5</pX>
+<pY>40</pY>
+<pW>500</pW>
+<pH>500</pH>
+<attempts>3</attempts>
+<attempts_actions>no</attempts_actions>
+<lastattempt>list_select_next</lastattempt>
+<timer_incorrect_switch>yes</timer_incorrect_switch>
+<timer_incorrect>3000</timer_incorrect>
+<correct_display></correct_display>
+<correct_hide>no</correct_hide>
+<bg_color>#FF9900</bg_color>
+<border_color>#CC6600</border_color>
+<borderstyle>solid</borderstyle>
+<borderwidth>3</borderwidth>
+<radius>10</radius>
+<opacity>50</opacity>
+<preview>no</preview>
+</param>
+<param objectid="OBJ_13">
+<hidden.label>Активная зона</hidden.label>
+<activation>method</activation>
+<cursor>pointer</cursor>
+<control_type>object</control_type>
+<fs_object></fs_object>
+<object_to_control></object_to_control>
+<fs_position></fs_position>
+<pX>5</pX>
+<pY>40</pY>
+<pW>500</pW>
+<pH>500</pH>
+<attempts>3</attempts>
+<attempts_actions>no</attempts_actions>
+<lastattempt>list_select_next</lastattempt>
+<timer_incorrect_switch>yes</timer_incorrect_switch>
+<timer_incorrect>3000</timer_incorrect>
+<correct_display></correct_display>
+<correct_hide>no</correct_hide>
+<bg_color>#FF9900</bg_color>
+<border_color>#CC6600</border_color>
+<borderstyle>solid</borderstyle>
+<borderwidth>3</borderwidth>
+<radius>10</radius>
+<opacity>50</opacity>
+<preview>no</preview>
+</param>
+<param objectid="OBJ_14">
 <hidden.label>Активная зона</hidden.label>
 <activation>method</activation>
 <cursor>pointer</cursor>
