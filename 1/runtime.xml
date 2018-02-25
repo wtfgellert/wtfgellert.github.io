@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Presentation file, saved 2/25/2018 3:45:57 PM using CourseLab 171119 -->
+<!-- Presentation file, saved 2/25/2018 4:19:51 PM using CourseLab 171119 -->
 <module>
 <runtime preview_fullscreen="yes" preview_fitwindow="no" fit_small_window="yes" showsplash="yes" seqslides="no" preloadimages="yes" normalize="no"/>
 <groups>
@@ -437,7 +437,9 @@
 </object>
 <object id="TXT_24" x="13" y="190" w="663" h="66" z="113" display="none" begin="0">
 <data>
-<![CDATA[<div style="width: 663px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Поговаривают, что анимагическая форма<br>Гриндельвальда - кот</span></font></span></span>
+<![CDATA[<div style="width: 663px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Поговаривают, что анимагическая форма
+  <br />
+  Гриндельвальда &ndash; кот</span></font></span></span>
 </p></div>]]>
 </data>
 </object>
@@ -705,7 +707,7 @@
 </object>
 <object id="TXT_25" x="12" y="190" w="655" h="66" z="113" display="none" begin="0">
 <data>
-<![CDATA[<div style="width: 655px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Двоюродная бабушка Гриндельвальда - Батильда Бэгшот, автор «Истории магии»</span></font></span></span>
+<![CDATA[<div style="width: 655px; height: 66px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Двоюродная бабушка Гриндельвальда &ndash; Батильда Бэгшот, автор &laquo;Истории магии&raquo;</span></font></span></span>
 </p></div>]]>
 </data>
 </object>
@@ -1045,8 +1047,7 @@
 </object>
 <object id="TXT_20" x="77" y="162" w="597" h="145" z="102" display="slide" begin="0">
 <data>
-<![CDATA[<div style="width: 597px; height: 145px; box-sizing: border-box;"><p align="center"><span style="font-size:26px;"><span style="font-family:georgia,serif;"><span style="color:#FFFFFF;"><span style="line-height: 20px;">Поздравляем, ты обыскал поместье Гриндельвальда и выбрался благополучно. Теперь ты больше знаешь о враге &ndash; это поможет в борьбе за мировую справедливость. Ради общего блага!</span></span></span></span>
-</p></div>]]>
+<![CDATA[<div style="width: 597px; height: 145px; box-sizing: border-box;"><p align="center"><span style="font-size:26px;"><span style="font-family:georgia,serif;"><span style="color:#FFFFFF;"><span style="line-height: 20px;">Поздравляем, ты обыскал поместье Гриндельвальда и выбрался благополучно. Теперь ты больше знаешь о враге &ndash; это поможет в борьбе за мировую справедливость. Ради общего блага!</span></span></span></span></p></div>]]>
 </data>
 </object>
 <timeline>
