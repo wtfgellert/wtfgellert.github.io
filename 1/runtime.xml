@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Presentation file, saved 2/25/2018 3:27:42 PM using CourseLab 171119 -->
+<!-- Presentation file, saved 2/25/2018 3:36:27 PM using CourseLab 171119 -->
 <module>
 <runtime preview_fullscreen="yes" preview_fitwindow="no" fit_small_window="yes" showsplash="yes" seqslides="no" preloadimages="yes" normalize="no"/>
 <groups>
@@ -230,7 +230,7 @@
 </slide>
 <slide id="SLIDE_5" sid="i" masterid="MASTER1" advance="wait" transition="-1" durout="0" name="Без названия" indent="0">
 <frames>
-<frame id="FRAME_11" dur="1000" infinite="0">
+<frame id="FRAME_11" dur="1000" infinite="1">
 <object id="IMG_48" x="0" y="0" w="750" h="469" z="100" display="slide" begin="0" preload="images/0004_FRAME_11.png">
 <data>
 <![CDATA[<img src="images/0004_FRAME_11.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
@@ -258,8 +258,12 @@
 </object>
 <object id="TXT_34" x="193" y="4" w="365" h="37" z="105" display="frame" begin="0" tranin="12" durin="1.0">
 <data>
-<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;" ondisplaytransitionend="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'TXT_34_1', evt: oEvt });return false;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
 </data>
+<RESPONSE name="TXT_34_1" event="ondisplaytransitionend" type="link">
+<GOTO option="1" fs_frame="" pid="">
+</GOTO>
+</RESPONSE>
 </object>
 <timeline>
 </timeline>
@@ -492,7 +496,7 @@
 </slide>
 <slide id="SLIDE_6" sid="j" masterid="MASTER1" advance="wait" transition="-1" durout="0" name="Без названия" indent="0">
 <frames>
-<frame id="FRAME_12" dur="1000" infinite="0">
+<frame id="FRAME_12" dur="1000" infinite="1">
 <object id="IMG_39" x="0" y="0" w="750" h="469" z="100" display="slide" begin="0" preload="images/0006_FRAME_12.png">
 <data>
 <![CDATA[<img src="images/0006_FRAME_12.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
@@ -521,8 +525,12 @@
 </object>
 <object id="TXT_38" x="193" y="4" w="365" h="37" z="105" display="frame" begin="0" tranin="12" durin="1.0">
 <data>
-<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;" ondisplaytransitionend="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'TXT_38_1', evt: oEvt });return false;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
 </data>
+<RESPONSE name="TXT_38_1" event="ondisplaytransitionend" type="link">
+<GOTO option="1" fs_frame="" pid="">
+</GOTO>
+</RESPONSE>
 </object>
 <timeline>
 </timeline>
@@ -756,7 +764,7 @@
 </slide>
 <slide id="SLIDE_7" sid="k" masterid="MASTER1" advance="wait" transition="-1" durout="0" name="Без названия" indent="0">
 <frames>
-<frame id="FRAME_13" dur="1000" infinite="0">
+<frame id="FRAME_13" dur="1000" infinite="1">
 <object id="IMG_37" x="0" y="0" w="750" h="469" z="100" display="slide" begin="0" preload="images/0008_FRAME_13.png">
 <data>
 <![CDATA[<img src="images/0008_FRAME_13.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
@@ -785,8 +793,12 @@
 </object>
 <object id="TXT_42" x="193" y="4" w="365" h="37" z="105" display="frame" begin="0" tranin="12" durin="1.0">
 <data>
-<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
+<![CDATA[<div style="width: 365px; height: 37px; box-sizing: border-box;" ondisplaytransitionend="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'TXT_42_1', evt: oEvt });return false;"><p align="center"><span style="color:#FFFFFF;"><span style="font-size:26px;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">Найдите предметы</span></font></span></span></p></div>]]>
 </data>
+<RESPONSE name="TXT_42_1" event="ondisplaytransitionend" type="link">
+<GOTO option="1" fs_frame="" pid="">
+</GOTO>
+</RESPONSE>
 </object>
 <timeline>
 </timeline>
