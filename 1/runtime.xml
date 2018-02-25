@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Presentation file, saved 2/25/2018 3:36:27 PM using CourseLab 171119 -->
+<!-- Presentation file, saved 2/25/2018 3:45:57 PM using CourseLab 171119 -->
 <module>
 <runtime preview_fullscreen="yes" preview_fitwindow="no" fit_small_window="yes" showsplash="yes" seqslides="no" preloadimages="yes" normalize="no"/>
 <groups>
@@ -830,7 +830,40 @@
 </IF>
 </RESPONSE>
 </object>
-<object id="IMG_19" x="110" y="283" w="61" h="44" rotation="358" z="102" display="frame" begin="0" preload="images/146626787912030267.png">
+<object id="IMG_51" x="339" y="91" w="87" h="99" z="102" display="frame" begin="0" preload="images/DurmstrangCrest.png">
+<data>
+<![CDATA[<img src="images/DurmstrangCrest.png" style="width: 87px; height: 99px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_51_1', evt: oEvt });return false;"/>]]>
+</data>
+<RESPONSE name="IMG_51_1" event="onclick" type="link">
+<PAR>
+<DISPLAY pid="IMG_51" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_15" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_28" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_29" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_30" display="none" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<VARIABLE name="pr2" value="#pr2+1" global="0">
+</VARIABLE>
+<VARIABLE name="all" value="#all+1" global="1">
+</VARIABLE>
+</PAR>
+<PAR>
+<DISPLAY pid="IMG_46" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="OBJ_14" display="inline" transition="0" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="IMG_47" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+<DISPLAY pid="TXT_28" display="inline" transition="13" fs_dur="" dur="1000">
+</DISPLAY>
+</PAR>
+</RESPONSE>
+</object>
+<object id="IMG_19" x="110" y="283" w="61" h="44" rotation="358" z="103" display="frame" begin="0" preload="images/146626787912030267.png">
 <data>
 <![CDATA[<img src="images/146626787912030267.png" style="width: 61px; height: 44px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_19_1', evt: oEvt });return false;"/>]]>
 </data>
@@ -863,7 +896,7 @@
 </PAR>
 </RESPONSE>
 </object>
-<object id="IMG_29" x="517" y="306" w="67" h="19" z="103" display="frame" begin="0" preload="images/37.png">
+<object id="IMG_29" x="517" y="306" w="67" h="19" z="104" display="frame" begin="0" preload="images/37.png">
 <data>
 <![CDATA[<img src="images/37.png" style="width: 67px; height: 19px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_29_1', evt: oEvt });return false;"/>]]>
 </data>
@@ -892,39 +925,6 @@
 <DISPLAY pid="IMG_47" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 <DISPLAY pid="TXT_30" display="inline" transition="13" fs_dur="" dur="1000">
-</DISPLAY>
-</PAR>
-</RESPONSE>
-</object>
-<object id="IMG_30" x="339" y="91" w="87" h="99" z="104" display="frame" begin="0" preload="images/DurmstrangCrest.png">
-<data>
-<![CDATA[<img src="images/DurmstrangCrest.png" style="width: 87px; height: 99px;border-width: 0px;cursor:pointer;" onclick="try { var oEvt = e; } catch(x) { var oEvt = window.event; }; CL.Resp.Process({ respid: 'IMG_30_1', evt: oEvt });return false;"/>]]>
-</data>
-<RESPONSE name="IMG_30_1" event="onclick" type="link">
-<PAR>
-<DISPLAY pid="IMG_30" display="none" transition="13" fs_dur="" dur="1000">
-</DISPLAY>
-<DISPLAY pid="TXT_15" display="none" transition="13" fs_dur="" dur="1000">
-</DISPLAY>
-<DISPLAY pid="TXT_28" display="none" transition="13" fs_dur="" dur="1000">
-</DISPLAY>
-<DISPLAY pid="TXT_29" display="none" transition="13" fs_dur="" dur="1000">
-</DISPLAY>
-<DISPLAY pid="TXT_30" display="none" transition="13" fs_dur="" dur="1000">
-</DISPLAY>
-<VARIABLE name="pr2" value="#pr2+1" global="0">
-</VARIABLE>
-<VARIABLE name="all" value="#all+1" global="1">
-</VARIABLE>
-</PAR>
-<PAR>
-<DISPLAY pid="IMG_46" display="inline" transition="13" fs_dur="" dur="1000">
-</DISPLAY>
-<DISPLAY pid="OBJ_14" display="inline" transition="0" fs_dur="" dur="1000">
-</DISPLAY>
-<DISPLAY pid="IMG_47" display="inline" transition="13" fs_dur="" dur="1000">
-</DISPLAY>
-<DISPLAY pid="TXT_28" display="inline" transition="13" fs_dur="" dur="1000">
 </DISPLAY>
 </PAR>
 </RESPONSE>
