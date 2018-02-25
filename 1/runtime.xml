@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Presentation file, saved 2/25/2018 2:53:11 PM using CourseLab 171119 -->
+<!-- Presentation file, saved 2/25/2018 3:04:44 PM using CourseLab 171119 -->
 <module>
 <runtime preview_fullscreen="yes" preview_fitwindow="no" fit_small_window="yes" showsplash="yes" seqslides="no" preloadimages="yes" normalize="no"/>
 <groups>
@@ -230,7 +230,7 @@
 </slide>
 <slide id="SLIDE_5" sid="i" masterid="MASTER1" advance="wait" transition="-1" durout="0" name="Без названия" indent="0">
 <frames>
-<frame id="FRAME_11" dur="0" infinite="0">
+<frame id="FRAME_11" dur="1000" infinite="0">
 <object id="IMG_48" x="0" y="0" w="750" h="469" z="100" display="frame" begin="0" preload="images/0004_FRAME_11.png">
 <data>
 <![CDATA[<img src="images/0004_FRAME_11.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
@@ -430,7 +430,7 @@
 </object>
 <object id="TXT_23" x="15" y="190" w="643" h="90" z="116" display="none" begin="0">
 <data>
-<![CDATA[<div style="width: 643px; height: 90px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">В 1926 году Гриндельвальд  обратился главой мракоборического отдела Персивалем Грейвзом</span></font></span></span>
+<![CDATA[<div style="width: 643px; height: 90px; box-sizing: border-box;"><p align="center"><span style="font-size:24px;"><span style="color:#FFFFFF;"><font face="georgia, serif"><span style="line-height: 33.599998474121094px;">В 1926 году Гриндельвальд обратился главой мракоборческого отдела Персивалем Грейвзом</span></font></span></span>
 </p></div>]]>
 </data>
 </object>
@@ -478,7 +478,7 @@
 </slide>
 <slide id="SLIDE_6" sid="j" masterid="MASTER1" advance="wait" transition="-1" durout="0" name="Без названия" indent="0">
 <frames>
-<frame id="FRAME_12" dur="0" infinite="0">
+<frame id="FRAME_12" dur="1000" infinite="0">
 <object id="IMG_39" x="0" y="0" w="750" h="469" z="100" display="frame" begin="0" preload="images/0006_FRAME_12.png">
 <data>
 <![CDATA[<img src="images/0006_FRAME_12.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
@@ -727,7 +727,7 @@
 </slide>
 <slide id="SLIDE_7" sid="k" masterid="MASTER1" advance="wait" transition="-1" durout="0" name="Без названия" indent="0">
 <frames>
-<frame id="FRAME_13" dur="0" infinite="0">
+<frame id="FRAME_13" dur="1000" infinite="0">
 <object id="IMG_37" x="0" y="0" w="750" h="469" z="100" display="frame" begin="0" preload="images/0008_FRAME_13.png">
 <data>
 <![CDATA[<img src="images/0008_FRAME_13.png" style="width: 750px; height: 469px;border-width: 0px;"/>]]>
